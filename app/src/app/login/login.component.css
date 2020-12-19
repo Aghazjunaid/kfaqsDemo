@@ -1,0 +1,34 @@
+.sign{
+    text-align: center;
+    padding : top;
+    color: #bb0606;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+.us{
+    text-align: center;
+    padding : top;
+    color: #0a020e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.pas{
+   
+    padding : top;
+    color: #0a020e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 41.4%;
+    
+}
+.button{
+    color: #bb0606;
+    padding: 40 40px 10 10  ;
+    margin-left: 48%;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
