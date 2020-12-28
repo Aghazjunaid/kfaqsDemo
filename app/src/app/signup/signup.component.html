@@ -1,0 +1,31 @@
+<div class="div-center">
+  <h2>Signup form</h2>
+  <form [formGroup] = "formdata" (ngSubmit)="onClickSubmit(formdata.value)">
+    <table class="table">
+      <tbody>
+        <tr>
+					<td><label for="name">Name: </label></td>
+					<td><input maxlength="50" name="name" type="text"  ngModel/></td>
+        </tr>
+        <tr>
+					<td><label for="email">Email_Address:</label></td>
+					<td><input maxlength="50" name="email" type="email" ngModel/></td>
+        </tr>
+        <tr>
+					<td><label for="mobileno">Mobile_no: </label></td>
+					<td><input maxlength="20" name="mobileno" type="number" ngModel/></td>
+        </tr>
+        <tr>
+					<td><label for="password">Password:</label></td>
+					<td><input maxlength="50" name="password" type="password" ngModel /></td>
+        </tr>
+        <tr>
+        	<td align="right"> 
+					  <input type="submit" [disabled] = "!formdata.valid" class="forsubmit"  value = "Register">
+					</td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+<div>
+
