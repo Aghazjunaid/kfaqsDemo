@@ -6,11 +6,11 @@ var Schema = mongoose.Schema;
 
 var UserSchema = new Schema({
   username: {type:String, unique:true, required:true},
-  email: {type:String, unique:true, require:true},
-  fullName: {type:String, require:true},
+  email: {type:String, unique:true, required:true},
+  fullName: {type:String, required:true},
   dob: {type:Date},
   mobile: {type:Number, unique:true},
-  password: {type:String, require:true} ,
+  password: {type:String, required:true} ,
   createdAt: {type: Date, default:Date},
   updatedAt:{type:Date, default:Date.now}
 },{ timestamps: true });
